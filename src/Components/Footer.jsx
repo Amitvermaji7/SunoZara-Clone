@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import { FaYoutube } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -85,6 +86,19 @@ const Footer = () => {
               <a href="#" className="text-blue-400 hover:text-yellow-500">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
+            </div>
+            <div>
+             <ul className='decoration-none flex gap-2'>
+             <li>
+             <FaYoutube className='text-red-500' />
+              </li>
+              <li>
+               FB
+              </li>
+              <li>
+               insta
+              </li>
+             </ul>
             </div>
           </div>
         </div>
