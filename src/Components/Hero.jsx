@@ -20,7 +20,7 @@ const Hero = () => {
 			</p>
 			<div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
 				<button className="px-8 py-3 text-lg text-black font-semibold  bg-yellow-600 rounded-md mx-4">Download App</button>
-				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-600 text-yellow-500">Learn more→</a>
+				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded text-yellow-500">Learn more→</a>
 			</div>
 		</div>
 		<div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
