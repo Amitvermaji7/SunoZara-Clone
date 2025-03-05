@@ -1,14 +1,14 @@
 import React from 'react'
 import logo from '../assets/logo.png'
-import { FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaYoutube, FaInstagramSquare } from 'react-icons/fa'
+import { TbBrandLinkedinFilled } from 'react-icons/tb'
 
 const Footer = () => {
   return (
     <footer className="bg-[#080B12] text-gray-400 text-sm">
       <div className="container mx-auto px-4 py-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
-          
-         
+      
           <div>
             <h2 className="text-white text-lg font-semibold flex items-center gap-2">
               <img
@@ -93,10 +93,13 @@ const Footer = () => {
              <FaYoutube className='text-red-500' />
               </li>
               <li>
-               FB
+              <FaFacebook className='text-blue-500' />
               </li>
               <li>
-               insta
+              <FaInstagramSquare className='text-pink-600' />
+              </li>
+              <li>
+              <TbBrandLinkedinFilled className='text-blue-600'/>
               </li>
              </ul>
             </div>

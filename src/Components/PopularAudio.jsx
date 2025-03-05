@@ -11,13 +11,13 @@ const PopularAudio = () => {
 
       {/* Carousel Section */}
       <div className="relative w-full flex gap-22 py-6 overflow-x-auto scrollbar-hide ">
-       <SongCard description='this is the des' title='title 1' src='https://picsum.photos/seed/picsum/200/200'/>
+       <SongCard  description='this is the des' title='title 1' src='https://picsum.photos/200/200/?blur=9'/>
        <SongCard  description='description 2' title='title 2'src='https://picsum.photos/seed/picsum/200/200'/>
-       <SongCard description='this is the des' title='title 1' src='https://picsum.photos/seed/picsum/200/200'/>
+       <SongCard  description='this is the des' title='title 1' src='https://picsum.photos/seed/picsum/200/200'/>
        <SongCard  description='description 2' title='title 2'src='https://picsum.photos/seed/picsum/200/200'/>
-       <SongCard description='this is the des' title='title 1' src='https://picsum.photos/seed/picsum/200/200'/>
+       <SongCard  description='this is the des' title='title 1' src='https://picsum.photos/seed/picsum/200/200'/>
        <SongCard  description='description 2' title='title 2'src='https://picsum.photos/seed/picsum/200/200'/>
-       <SongCard description='this is the des' title='title 1' src='https://picsum.photos/seed/picsum/200/200'/>
+       <SongCard  description='this is the des' title='title 1' src='https://picsum.photos/seed/picsum/200/200'/>
       </div>
     </div>
   );
