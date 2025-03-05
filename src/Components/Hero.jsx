@@ -12,8 +12,8 @@ const Hero = () => {
         />
 	<div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
 		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-			<h1 className="text-5xl font-bold leading-none sm:text-6xl">Bihar's
-				<span className="dark:text-violet-600">Heritage</span> in Audio
+			<h1 className="text-3xl font-bold leading-none sm:text-4xl">Bihar's
+				Heritage <br />in <span className='text-6xl'>Audio</span>
 			</h1>
 			<p className="mt-6 mb-10 text-lg sm:mb-14">Experience the rich cultural heritage of Bihar through
 				<br  className="hidden md:inline lg:hidden" /> immersive audio stories, folk tales, and literature.listen, learn, and connect with our root.
