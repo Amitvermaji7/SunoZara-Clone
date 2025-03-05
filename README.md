@@ -1,6 +1,5 @@
 live demo-
-https://suno-zara-clone-git-main-amitvermaji7s-projects.vercel.app
-
+https://suno-zara-clone.vercel.app/
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
