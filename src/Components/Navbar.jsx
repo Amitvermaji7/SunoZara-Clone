@@ -1,5 +1,6 @@
-import React from 'react'
-import logo from '../assets/logo.png'
+import React from "react";
+import { Link } from "react-router-dom";  // React Router ka Link import karna zaroori hai
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
   return (
@@ -9,7 +10,6 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="flex items-center">
           <img src={logo} alt="" className="w-[150px]" />
-
         </a>
 
         {/* Nav Links */}
@@ -18,9 +18,12 @@ export default function Navbar() {
           <a href="#" className="hover:text-yellow-400 transition-all duration-300">About</a>
           <a href="#" className="hover:text-yellow-400 transition-all duration-300">Contact Us</a>
 
-          <button className="border border-gray-400 rounded px-4 py-1 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all duration-300">
-            Audio Podcast
-          </button>
+          {/* Audio Podcast Button */}
+          <Link to="/podcast">
+            <button className="border border-gray-400 rounded px-4 py-1 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all duration-300">
+              Audio Podcast
+            </button>
+          </Link>
         </nav>
 
         {/* Buttons */}
@@ -41,5 +44,5 @@ export default function Navbar() {
         </button>
       </div>
     </header>
-  )
+  );
 }
