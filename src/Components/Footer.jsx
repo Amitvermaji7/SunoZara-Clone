@@ -1,7 +1,7 @@
-import React from 'react'
-import logo from '../assets/logo.png'
-import { FaFacebook, FaYoutube, FaInstagramSquare } from 'react-icons/fa'
-import { TbBrandLinkedinFilled } from 'react-icons/tb'
+import React from 'react';
+import logo from '../assets/logo.png';
+import { FaFacebook, FaYoutube, FaInstagramSquare } from 'react-icons/fa';
+import { TbBrandLinkedinFilled } from 'react-icons/tb';
 
 const Footer = () => {
   return (
